@@ -1,0 +1,13 @@
+.drop-zone {
+  border: 2px dashed #6c757d;
+  border-radius: 0.5rem;
+  min-height: 200px;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  overflow: auto;
+}
+
+.arrow {
+  font-size: 3rem;
+  color: #6c757d;
+}
