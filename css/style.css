@@ -5,6 +5,7 @@
   padding: 1rem;
   background-color: #f8f9fa;
   overflow: auto;
+  cursor: pointer;
 }
 
 .arrow {
