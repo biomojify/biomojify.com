@@ -5,6 +5,7 @@ import Aioli from "https://cdn.jsdelivr.net/npm/@biowasm/aioli@latest/dist/aioli
 
   const inputPanel = document.getElementById("input-panel");
   const fileInput = document.getElementById("file-input");
+
   const rawOutput = document.getElementById("raw-output");
   const processedOutput = document.getElementById("processed-output");
 
@@ -36,6 +37,7 @@ import Aioli from "https://cdn.jsdelivr.net/npm/@biowasm/aioli@latest/dist/aioli
   }
 
   async function processFile(file) {
+
     const [mounted] = await CLI.mount(file);
     const text = await CLI.cat(mounted);
 
